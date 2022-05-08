@@ -1,0 +1,36 @@
+body{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: auto auto auto;
+    grid-template-areas: "nav nav anv nav nav nav nav anv nav nav";
+}
+h1{
+    text-align: center;
+    color: #ffb020;
+    background-color: black;
+    font-family: fantasy;
+}
+.div1{
+    display: grid;
+    grid-template-columns: 302px 1fr;
+    background-color: black;
+    height: 10vh;
+    grid-area: nav;
+}
+ul{    list-style: none;
+    color: #ffb020;
+    font-family: fantasy;
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+}
+a,.log,i{
+    text-decoration: none;
+    color: #ffb020;
+    transition-duration: 0.7s;
+}
+ .a1:hover{
+    color: red;
+    border-bottom: 5px solid red;
+}

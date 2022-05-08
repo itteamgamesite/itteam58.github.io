@@ -1,0 +1,179 @@
+
+
+ h1{
+    text-align: center;
+    color: #ffb020;
+    background-color: black;
+    font-family: fantasy;
+}
+.div1{
+    display: grid;
+    grid-template-columns: 302px 1fr;
+    background-color: black;
+    height: 10vh;
+}
+ul{    list-style: none;
+    color: #ffb020;
+    font-family: fantasy;
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+}
+body{
+    background-color: black;
+    background-image: url(https://cdn2.unrealengine.com/Fortnite%2Fblog%2Fseason-8%2FBR08_News_Featured_Launch_ScreenKeyArt_Announce-1920x1080-f831323339109ab3c6a8d9e4c670f1973b8796d0.jpg);
+   background-repeat: repeat; 
+}
+video{
+    width: 704px;
+    height: 396px;
+    transform: translate(390px, 127px);
+    border-style: solid;
+    border-color: #ffb020;
+    border-width: 32px;
+}
+a,.log,i{
+    text-decoration: none;
+    color: #ffb020;
+    transition-duration: 0.7s;
+}
+ .a1:hover{
+    color: red;
+    border-bottom: 5px solid red;
+}
+ i:hover{
+    color: red;
+    border-bottom: 5px solid red;
+}
+.log{
+   border: 7px solid #ffb020;
+   transform: translate(1400px,-56px);
+   border-radius: 10px 0 10px 0;
+background-color: black;
+color: #ffb020;
+text-align: center;
+width:80px ;
+font-family: fantasy;}
+.a2:hover{
+    color: red;
+}
+.log:hover{
+    border-color:red;
+
+}
+.div3{
+    width: 704px;
+    display: grid;
+    height: 348px;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: 60px auto;
+    gap: 10px 10px;
+    row-gap: 10px;
+    column-gap: 10px;
+    align-content: space-evenly;
+    justify-items: center;
+    border: 27px solid black;
+    color: black;
+    background-color: #ffb020;
+    transform: translate(390px, 138px);
+    font-family: cursive;
+    border-radius: 100px;
+}
+.div2{
+    height: 620px;
+}
+.div4{
+    display: grid;
+    transform: translate(131px, 188px);
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: auto auto;
+    width: 100px;
+    z-index: 3;
+
+}
+.img1{
+    width: 300px;
+    filter: grayscale(0);
+    transform: rotate(0);
+     transition-duration: 1s;
+}
+.img1:hover{
+    filter: grayscale(1);
+    transform: rotatex(90deg);
+   
+}
+.div5{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: auto auto;
+    background-color: black;
+    transform: translate(131px,-446px);
+    width: 1200px;
+    height: 630px;
+    z-index: 1;
+}
+.div6{
+    position: absolute;
+}
+.img2{
+    width: 100px;
+
+}
+.divv{
+    width: 1000px;
+    height: 1000px;
+}
+footer{
+    width: 1519px;
+    height: 200px;
+    background-color: dimgray;
+    transform: translate(-8px, 931px);
+}
+i{
+    color: #ffb020;
+
+}
+/* .a2{
+    color: #ffb020;
+    display: inline-block;
+    padding: 30px;
+    text-align: center;
+} */
+/* }
+.a2:hover{
+    color: red;
+    border-bottom: 5px solid red;
+} */
+.a3{
+    color: #ffb020;
+    display: inline-block;
+    padding: 30px;
+    text-align: center;
+}
+.row{
+    display: flex;
+    padding: 10px;
+    width: 700px;
+    transform: translate(0px, 27px);
+}
+.div10{
+    display: flex;
+    text-align: center;
+    width: 108px;
+    height: 39px;
+    background-color: black;
+    color: #ffb020;
+    transform: translate(700px, 869px);
+    justify-content: center;
+    align-content: stretch;
+    border: 10px solid #ffb020;
+    border-radius: 24px;
+    font-family: 'FontAwesome';
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+span{
+    transform: translate(0,10px);
+}
